@@ -26,7 +26,7 @@
 		int no = rs.getInt(1);
 		String memo = rs.getString("memo");
 		String wdate = rs.getString(3);
-		out.println("일련번호"+ no + ": " + memo +" :(" + wdate + ")");
+		out.println("일련번호"+ no + ": " + memo +" :(" + wdate + ")<br>");
 	}
 	rs.close();
 	pstmt.close();
