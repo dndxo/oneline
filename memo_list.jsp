@@ -78,7 +78,7 @@
 <%
 	String url = "jdbc:mysql://localhost/world?characterEncoding=UTF-8&serverTimezone=UTC"; 
 	String user = "root"; 
-	String passwd = "8150"; 
+	String passwd = "1234"; 
 	Connection con = null;
 	String sql = "select * from oneline";
 	PreparedStatement pstmt = null;
